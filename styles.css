@@ -3,7 +3,7 @@
 :root{
     --primary-color:#F472B6;
     --dark-gray:#4B5563;
-    --off-white:#F9FAFB;
+    --off-white:#B8C2CC;
 }
 
     body{font-family: 'Noto Sans TC', sans-serif;
@@ -103,6 +103,11 @@ hr{
 }
 .footer .link{
     color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    
 }
 .footer ul{
     padding-inline-start: 0px;
