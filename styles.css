@@ -81,9 +81,10 @@ hr{
 .hero .hero-heading{
     text-align: center;
     color:var(--dark-gray);
+    margin: zero;
 }
 .section{
-    padding: 2rem;
+    padding: 1rem;
     
 }
 .section h1{
@@ -100,6 +101,7 @@ hr{
     color: white;
     border-bottom-left-radius: 1rem;
     border-top-right-radius:1rem ;
+    margin: auto;
 }
 .footer .link{
     color: white;
