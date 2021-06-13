@@ -72,12 +72,22 @@ hr{
 }
 .hero{
     padding: 2rem;
+    text-align: center;
+    margin:auto
 }
-.hero .hero-img{
-    max-width: 350px;
+.hero .hero-svg{
+    max-width: 100px;
     display: block;
-    margin:auto;
+    margin: auto;
+    
+ 
 }
+.hero .blog-svg{
+    margin:auto;
+    padding: 0rem 15rem;
+    
+}
+
 .hero .hero-heading{
     text-align: center;
     color:var(--dark-gray);
