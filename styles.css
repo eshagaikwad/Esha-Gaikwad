@@ -28,17 +28,19 @@ hr{
 
 .link{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 1rem 0.5rem;
 }
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    padding: 0.5rem 0.5rem;
 }
 .link-secondary{
     color: var(--primary-color);
     border-radius: 00.5rem;
     border: 1px solid var(--primary-color);
+    padding: 0.5rem 0.5rem;
 
 }
 .list-non-bullet{
@@ -73,7 +75,7 @@ hr{
 .hero{
     padding: 2rem;
     text-align: center;
-    margin:auto
+    
 }
 .hero .hero-svg{
     max-width: 100px;
@@ -106,7 +108,7 @@ hr{
 }
 .footer{
     background-color: var(--primary-color);
-    padding: 1rem 1rem;
+    padding: 4rem 0rem;
     text-align: center;
     color: white;
     border-bottom-left-radius: 1rem;
