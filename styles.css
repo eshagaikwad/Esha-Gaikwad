@@ -75,10 +75,13 @@ hr{
 .hero{
     padding: 2rem;
     text-align: center;
+   width: 50px;
+   
     
 }
 .hero .hero-svg{
-    max-width: 100px;
+    width: 300px;
+    height: 300px;
     display: block;
     margin: auto;
     
@@ -87,6 +90,9 @@ hr{
 .hero .blog-svg{
     margin:auto;
     padding: 0rem 15rem;
+    width: 300px;
+    height: 300px;
+
     
 }
 
