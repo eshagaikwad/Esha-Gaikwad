@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat:ital,wght@0,400;1,700&family=Noto+Sans+TC:wght@400;700&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
 
-:root{
-    --primary-color:#F472B6;
-    --dark-gray:#4B5563;
-    --off-white:#B8C2CC;
+:root{background-color: black;
+    
 }
 
     body{font-family: 'Noto Sans TC', sans-serif;
@@ -12,10 +10,7 @@ hr{
     margin: 2rem 1rem;
 }
     
-:root{
-    --primary-color:#F472B6;
 
-}
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -25,22 +20,33 @@ hr{
   margin: auto;
 
 }
+.section .subheading{
+    text-align: left;
+}
+.containercontainer-center{
+    color: white;
+    text-align: left;
+}
 
 .link{
     text-decoration: none;
     padding: 1rem 0.5rem;
 }
 .link-primary{
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    background-color:black;
+    padding:0rem 0rem;
     color: white;
-    padding: 0.5rem 0.5rem;
+    border-color: blanchedalmond;
+   
+    
 }
 .link-secondary{
-    color: var(--primary-color);
+    color: white;
     border-radius: 00.5rem;
-    border: 1px solid var(--primary-color);
+    border: 1px solid ;
     padding: 0.5rem 0.5rem;
+    border-color: black;
+    font-variant-caps: all-petite-caps;
 
 }
 .list-non-bullet{
@@ -51,7 +57,7 @@ hr{
     padding: 0rem 0.5rem;
 }
 .navigation{
-    background-color: var(--primary-color);
+    background-color: black;
     color:white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -71,6 +77,7 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+    color:white ;
 }
 .hero{
     padding: 2rem;
@@ -84,43 +91,39 @@ hr{
     display: block;
     float: inline-start;
 }
-
+.sectionow{
+    color: white;
+}
 .hero .blog-svg{
     
     margin: auto;
     width: 300px;
     height: 300px;
-    float: inline-start;
-  
-
-    
+    float: inline-start;    
 }
+.hero .my{
+    border-radius: 8px;
+    width: 450px;
+padding: 0rem;
+height: auto;
 
+}
 .hero .hero-heading{
     text-align: center;
-    color:var(--dark-gray);
+    
     margin: zero;
 }
 .section{
     padding: 1rem;
+    color: white;
+    text-align: left;
     
 }
 .section h1{
     text-align: center;
 }
-.ow{
-    background-color: var(--off-white);
-    
-}
-.footer{
-    background-color: var(--primary-color);
-    padding: 4rem 0rem;
-    text-align: center;
-    color: white;
-    border-bottom-left-radius: 1rem;
-    border-top-right-radius:1rem ;
-    margin: auto;
-}
+
+
 .footer .link{
     color: white;
 }
@@ -131,4 +134,25 @@ hr{
 }
 .footer ul{
     padding-inline-start: 0px;
+    color: white;
+}
+.footer{
+    padding:0rem 4rem ;
+    background-color:black ;
+    color: white;
+    text-align: left;
+    padding:0rem 0.5rem;
+}
+.footer .links{
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+.containercontainer-center .linklink-primary
+{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
