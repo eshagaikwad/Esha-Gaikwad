@@ -130,6 +130,7 @@ height: auto;
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
+    text-align: center;
     
 }
 .footer ul{
@@ -142,11 +143,13 @@ height: auto;
     color: white;
     text-align: left;
     padding:0rem 0.5rem;
+    text-align: center;
 }
 .footer .links{
     color: white;
-    text-align: right;
+    text-align: center;
     text-decoration: none;
+    text-align: center;
 }
 .containercontainer-center .linklink-primary
 {
