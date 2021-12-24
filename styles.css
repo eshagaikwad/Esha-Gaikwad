@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat:ital,wght@0,400;1,700&family=Noto+Sans+TC:wght@400;700&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
-
-:root{background-color: black;
+:root{
+    background-color: black;
     
 }
 
-    body{font-family: 'Noto Sans TC', sans-serif;
+body{
+        font-family: 'Noto Sans TC', sans-serif;
     }
 hr{
     margin: 2rem 1rem;
@@ -51,6 +52,7 @@ hr{
 }
 .list-non-bullet{
     list-style: none;
+    
 }
 .list-item-inline{
     display: inline;
@@ -152,6 +154,7 @@ background-position:center;
     text-align: center;
     text-decoration: none;
     text-align: center;
+    
 }
 .containercontainer-center .linklink-primary
 {
@@ -161,3 +164,46 @@ background-position:center;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
+.links1{
+    background-color: #0088cc;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+    
+}
+.links2{
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+}
+.links3{
+     background-color: #0e76a8;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+}
+.links4{
+     background-color: #e1306c;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+}
+
+
